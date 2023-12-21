@@ -1,0 +1,11 @@
+-- how to commit source upto git
+1. Create repository on github
+vd: https://github.com/hungpq16/springboot-mongodb.git
+
+2. Open terminal run all cmn bellow:
+git init
+git status // check
+git add .
+git commit -m "commit message"
+git remote add origin https://github.com/hungpq16/springboot-mongodb.git
+git push origin master
